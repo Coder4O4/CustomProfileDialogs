@@ -37,7 +37,7 @@ public    class SocialNasNeDialog {
         TextView cancelDialogBtn = profileView.findViewById(R.id.cancelDiaBtn);
 
         Glide.with(context)
-                .load("https://townsquare.media/site/442/files/2018/02/iron-man-tony-stark.png?w=980&q=75")
+                .load(getUserData.getProfile())
                 .placeholder(R.drawable.avatar)
                 .into(profile);
 
