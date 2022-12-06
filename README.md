@@ -36,7 +36,8 @@ allprojects {
                 double followers = 20;
                 double followings  = 12;
                 boolean userLike = true;
-                GetUserData getUserData = new GetUserData(name , location , bio ,profile , followers, followings , userLike);
+                GetUserData getUserData = 
+		new GetUserData(name , location , bio ,profile , followers, followings , userLike);
                 SocialNasNeDialog.dialog(MainActivity.this , DialogData.CANCELABLE , getUserData);
             }
         });
