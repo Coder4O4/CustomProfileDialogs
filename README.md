@@ -7,7 +7,7 @@ This repo provide custom dialogs for different conditions. You just have to pass
 ```gradle
 allprojects {
 		repositories {
-			...
+			//...
 			maven { url 'https://jitpack.io' }
 		}
 	}
